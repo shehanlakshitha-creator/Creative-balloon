@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capabilities & Services — CREATIVE BALLOON | Digital Growth, Creative & Visual Production</title>
+  
+  <meta name="description" content="Explore Creative Balloon's full suite of capabilities across Digital Growth, Creative Direction, and Visual Cinema Production. Built to move brands forward.">
+  <meta property="og:title" content="Services & Capabilities — CREATIVE BALLOON">
+  <meta property="og:description" content="Three distinct pillars. Zero silos. What it is, why it matters, and what we deliver.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <style>
+    .services-hero-header {
+      padding: calc(var(--header-height) + 4rem) 0 3.5rem;
+      border-bottom: 1px solid var(--border-subtle);
+      background: radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.08) 0%, transparent 60%),
+                  var(--surface-charcoal);
+    }
+
+    .pillar-nav-tabs {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .pillar-tab-btn {
+      background: var(--surface-elevated);
+      border: 1px solid var(--border-subtle);
+      padding: 0.85rem 1.75rem;
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .pillar-tab-btn:hover {
+      border-color: var(--border-medium);
+      color: var(--text-warm-white);
+    }
+
+    .pillar-tab-btn.active {
+      background: var(--accent-lift);
+      border-color: var(--accent-lift);
+      color: #FFFFFF;
+      box-shadow: 0 4px 15px var(--accent-lift-glow);
+    }
+
+    .service-detail-card {
+      background: var(--surface-charcoal);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: clamp(2rem, 3.5vw, 3rem);
+      margin-bottom: 2.5rem;
+      transition: transform var(--transition-smooth), border-color var(--transition-smooth);
+    }
+
+    .service-detail-card:hover {
+      border-color: var(--border-lift);
+      transform: translateY(-4px);
+    }
+
+    .service-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .service-benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .benefit-box {
+      background: var(--surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .benefit-box-title {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--accent-lift);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .benefit-deliver-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin-top: 0.25rem;
+    }
+
+    .benefit-deliver-item {
+      font-size: 0.88rem;
+      color: var(--text-warm-white);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      line-height: 1.45;
+    }
+
+    .benefit-deliver-item::before {
+      content: '✓';
+      color: var(--accent-lift);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 992px) {
+      .service-benefits-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="cb-header" role="banner">
+    <div class="container cb-header-inner">
+      <div class="cb-logo-mount"></div>
+
+      <nav class="cb-nav-desktop" role="navigation" aria-label="Main Navigation">
+        <a href="index.html#work" class="cb-nav-link">WORK</a>
+        <a href="services.html" class="cb-nav-link active">SERVICES</a>
+        <a href="index.html#loop" class="cb-nav-link">THE LOOP</a>
+        <a href="index.html#why" class="cb-nav-link">WHY US</a>
+        <a href="index.html#about" class="cb-nav-link">ABOUT</a>
+        <a href="index.html#contact" class="cb-nav-link">CONTACT</a>
+      </nav>
+
+      <div class="cb-header-cta">
+        <a href="index.html#contact" class="btn btn-primary">
+          <span>START A PROJECT</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+
+        <button class="cb-nav-toggle" aria-label="Toggle Mobile Menu">
+          <div class="cb-burger-icon">
+            <span class="cb-burger-line"></span>
+            <span class="cb-burger-line"></span>
+            <span class="cb-burger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay -->
+  <div class="cb-mobile-menu">
+    <div class="cb-mobile-header">
+      <div class="cb-logo-mount"></div>
+    </div>
+    <ul class="cb-mobile-nav-list">
+      <li><a href="index.html#work" class="cb-mobile-link"><span class="mobile-num">01</span> WORK</a></li>
+      <li><a href="services.html" class="cb-mobile-link"><span class="mobile-num">02</span> SERVICES</a></li>
+      <li><a href="index.html#loop" class="cb-mobile-link"><span class="mobile-num">03</span> THE LOOP</a></li>
+      <li><a href="index.html#why" class="cb-mobile-link"><span class="mobile-num">04</span> WHY US</a></li>
+      <li><a href="index.html#about" class="cb-mobile-link"><span class="mobile-num">05</span> ABOUT</a></li>
+      <li><a href="index.html#contact" class="cb-mobile-link"><span class="mobile-num">06</span> CONTACT</a></li>
+    </ul>
+    <div class="cb-mobile-footer">
+      <a href="index.html#contact" class="btn btn-primary cb-mobile-cta">START A PROJECT</a>
+      <div class="cb-mobile-contact-line">hello@creativeballoon.agency • Colombo, Sri Lanka</div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Header Banner -->
+    <header class="services-hero-header">
+      <div class="container">
+        <span class="mono-label">FULL SERVICE BREAKDOWN</span>
+        <h1 class="display-title headline-lg" style="margin-top:0.75rem;">CAPABILITIES &amp; DELIVERABLES.</h1>
+        <p class="body-lead" style="max-width:720px; margin-top:1rem;">
+          Every single service is built around 3 non-negotiable questions: What is it, why does your brand need it, and exactly what will you hold in your hands.
+        </p>
+
+        <!-- Pillar Switcher Tabs -->
+        <div class="pillar-nav-tabs" role="tablist">
+          <button class="pillar-tab-btn active" data-pillar="all">
+            <span>ALL PILLARS</span>
+          </button>
+          <button class="pillar-tab-btn" data-pillar="digital-growth">
+            <span class="mono-number">01</span>
+            <span>DIGITAL GROWTH</span>
+          </button>
+          <button class="pillar-tab-btn" data-pillar="creative">
+            <span class="mono-number">02</span>
+            <span>CREATIVE STUDIO</span>
+          </button>
+          <button class="pillar-tab-btn" data-pillar="visual-production">
+            <span class="mono-number">03</span>
+            <span>VISUAL PRODUCTION</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services Dynamic Content Mount -->
+    <section class="section" style="padding-top:4rem;">
+      <div class="container" id="services-mount-point">
+        <!-- Rendered dynamically by js/services-page.js -->
+      </div>
+    </section>
+
+    <!-- Final CTA Banner -->
+    <section class="section cta-closing-section">
+      <div class="container cta-closing-card">
+        <span class="mono-label">READY TO COMBINE ALL THREE PILLARS?</span>
+        <h2 class="display-title cta-headline" style="margin-top:1rem;">LET'S BUILD SOMETHING EXTRAORDINARY.</h2>
+        <p class="cta-subtext">Book a 30-minute discovery session with our Creative Director.</p>
+        <div class="cta-button-cluster">
+          <a href="index.html#contact" class="btn btn-primary" style="padding:1.1rem 2.5rem;">START A PROJECT</a>
+          <a href="index.html#work" class="btn btn-secondary" style="padding:1.1rem 2.2rem;">VIEW SELECTED WORK</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="cb-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <div class="cb-logo-mount"></div>
+          <p class="footer-positioning-statement">
+            A creative growth agency where strategy, digital marketing and cinematic production work together.
+          </p>
+          <div class="mono-label-muted">COLOMBO • SRI LANKA // WORLDWIDE</div>
+        </div>
+        <div>
+          <div class="footer-col-title">NAVIGATION</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html#work" class="footer-link">Selected Work</a></li>
+            <li><a href="services.html" class="footer-link">Capabilities &amp; Services</a></li>
+            <li><a href="index.html#loop" class="footer-link">The Creative Loop</a></li>
+            <li><a href="index.html#why" class="footer-link">The Value Equation</a></li>
+            <li><a href="index.html#about" class="footer-link">About the Studio</a></li>
+            <li><a href="index.html#contact" class="footer-link">Project Enquiry</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">DIRECT INQUIRIES</div>
+          <ul class="footer-links-list">
+            <li><a href="mailto:hello@creativeballoon.agency" class="footer-link">hello@creativeballoon.agency</a></li>
+            <li><a href="https://wa.me/94771234567" target="_blank" rel="noopener" class="footer-link">+94 77 123 4567</a></li>
+            <li><span class="footer-link" style="color:var(--text-subtle);">Colombo 07, Sri Lanka</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">SIGNATURE</div>
+          <p class="body-muted" style="font-size:0.85rem;">
+            Creative strategy, digital marketing and cinematic production built to move brands forward.
+          </p>
+          <div class="footer-signature" style="margin-top:1.5rem;">IDEAS THAT RISE.</div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div class="footer-copy">© 2024 CREATIVE BALLOON (PVT) LTD. ALL RIGHTS RESERVED.</div>
+        <div class="footer-signature">IDEAS THAT RISE.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/logo-component.js"></script>
+  <script src="js/services-data.js"></script>
+  <script src="js/services-page.js"></script>
+</body>
+</html>

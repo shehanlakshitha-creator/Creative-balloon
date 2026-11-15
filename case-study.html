@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study — CREATIVE BALLOON</title>
+  
+  <meta name="description" content="Explore an in-depth case study from Creative Balloon: The Challenge, The Idea, The Strategy, The Creative, The Production, The Digital Execution, and The Result.">
+  <meta property="og:type" content="article">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="cb-header" role="banner">
+    <div class="container cb-header-inner">
+      <div class="cb-logo-mount"></div>
+
+      <nav class="cb-nav-desktop" role="navigation" aria-label="Main Navigation">
+        <a href="index.html#work" class="cb-nav-link active">WORK</a>
+        <a href="services.html" class="cb-nav-link">SERVICES</a>
+        <a href="index.html#loop" class="cb-nav-link">THE LOOP</a>
+        <a href="index.html#why" class="cb-nav-link">WHY US</a>
+        <a href="index.html#about" class="cb-nav-link">ABOUT</a>
+        <a href="index.html#contact" class="cb-nav-link">CONTACT</a>
+      </nav>
+
+      <div class="cb-header-cta">
+        <a href="index.html#contact" class="btn btn-primary">
+          <span>START A PROJECT</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+
+        <button class="cb-nav-toggle" aria-label="Toggle Mobile Menu">
+          <div class="cb-burger-icon">
+            <span class="cb-burger-line"></span>
+            <span class="cb-burger-line"></span>
+            <span class="cb-burger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dedicated Case Study Mount Container -->
+  <main style="padding-top:var(--header-height);">
+    <div id="standalone-cs-mount">
+      <!-- Injected by JavaScript based on ?id= or default first project -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="cb-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <div class="cb-logo-mount"></div>
+          <p class="footer-positioning-statement">
+            A creative growth agency where strategy, digital marketing and cinematic production work together.
+          </p>
+          <div class="mono-label-muted">COLOMBO • SRI LANKA // WORLDWIDE</div>
+        </div>
+        <div>
+          <div class="footer-col-title">NAVIGATION</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html#work" class="footer-link">Selected Work</a></li>
+            <li><a href="services.html" class="footer-link">Capabilities &amp; Services</a></li>
+            <li><a href="index.html#loop" class="footer-link">The Creative Loop</a></li>
+            <li><a href="index.html#why" class="footer-link">The Value Equation</a></li>
+            <li><a href="index.html#about" class="footer-link">About the Studio</a></li>
+            <li><a href="index.html#contact" class="footer-link">Project Enquiry</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">DIRECT INQUIRIES</div>
+          <ul class="footer-links-list">
+            <li><a href="mailto:hello@creativeballoon.agency" class="footer-link">hello@creativeballoon.agency</a></li>
+            <li><a href="https://wa.me/94771234567" target="_blank" rel="noopener" class="footer-link">+94 77 123 4567</a></li>
+            <li><span class="footer-link" style="color:var(--text-subtle);">Colombo 07, Sri Lanka</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">SIGNATURE</div>
+          <div class="footer-signature" style="margin-top:0.5rem;">IDEAS THAT RISE.</div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div class="footer-copy">© 2024 CREATIVE BALLOON (PVT) LTD. ALL RIGHTS RESERVED.</div>
+        <div class="footer-signature">IDEAS THAT RISE.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/logo-component.js"></script>
+  <script src="js/case-studies-data.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const projectId = urlParams.get('id') || 'ceylon-artisan-roasters';
+      const project = CASE_STUDIES.find(p => p.id === projectId) || CASE_STUDIES[0];
+      
+      document.title = `${project.title} — Case Study | CREATIVE BALLOON`;
+      
+      const mount = document.getElementById('standalone-cs-mount');
+      if (!mount) return;
+
+      mount.innerHTML = `
+        <div class="case-study-container" style="max-width:1200px; margin:2rem auto; border-radius:var(--radius-md);">
+          <!-- 1. PROJECT HERO -->
+          <div class="cs-hero-section">
+            <img src="${project.heroImage}" alt="${project.title}" class="cs-hero-img" />
+            <div class="cs-hero-overlay">
+              <span class="mono-label" style="margin-bottom:0.75rem;">CASE STUDY // ${project.categories.join(' • ')}</span>
+              <h1 class="display-title" style="font-size:clamp(2.5rem, 5vw, 4.5rem);">${project.title}</h1>
+            </div>
+          </div>
+
+          <!-- 2. CLIENT & PROJECT TYPE & META -->
+          <div class="cs-meta-grid">
+            <div class="cs-meta-block">
+              <span class="mono-label-muted">CLIENT</span>
+              <span class="headline-sm" style="font-size:1.1rem;">${project.client}</span>
+            </div>
+            <div class="cs-meta-block">
+              <span class="mono-label-muted">PROJECT TYPE</span>
+              <span class="headline-sm" style="font-size:1.1rem;">${project.heroBadge}</span>
+            </div>
+            <div class="cs-meta-block">
+              <span class="mono-label-muted">DELIVERY TIMELINE</span>
+              <span class="headline-sm" style="font-size:1.1rem;">12-Week Sprint</span>
+            </div>
+            <div class="cs-meta-block">
+              <span class="mono-label-muted">PRIMARY IMPACT</span>
+              <span class="headline-sm" style="font-size:1.1rem; color:var(--accent-lift);">${project.impactMetric}</span>
+            </div>
+          </div>
+
+          <!-- EXACT VERTICAL FLOW CONTENT -->
+          <div class="cs-content-body">
+            
+            <!-- 3. THE CHALLENGE -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">01 // THE CHALLENGE</div>
+              <div class="cs-flow-content">
+                <p>${project.challenge}</p>
+              </div>
+            </div>
+
+            <!-- 4. THE IDEA -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">02 // THE IDEA</div>
+              <div class="cs-flow-content">
+                <h3 class="headline-sm" style="color:var(--accent-lift); margin-bottom:0.75rem;">“${project.title}”</h3>
+                <p>${project.idea}</p>
+              </div>
+            </div>
+
+            <!-- 5. THE STRATEGY -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">03 // THE STRATEGY</div>
+              <div class="cs-flow-content">
+                <p>${project.strategy}</p>
+              </div>
+            </div>
+
+            <!-- 6. THE CREATIVE -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">04 // THE CREATIVE</div>
+              <div class="cs-flow-content">
+                <p>${project.creative}</p>
+              </div>
+            </div>
+
+            <!-- 7. THE PRODUCTION -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">05 // THE PRODUCTION</div>
+              <div class="cs-flow-content">
+                <p>${project.production}</p>
+                ${project.gallery && project.gallery.length ? `
+                  <div style="display:grid; grid-template-columns:repeat(${project.gallery.length}, 1fr); gap:1rem; margin-top:1.5rem;">
+                    ${project.gallery.map(img => `
+                      <img src="${img}" alt="Production Still" style="border-radius:var(--radius-sm); aspect-ratio:16/10; object-fit:cover; border:1px solid var(--border-subtle);" />
+                    `).join('')}
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+
+            <!-- 8. THE DIGITAL EXECUTION -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">06 // THE DIGITAL EXECUTION</div>
+              <div class="cs-flow-content">
+                <p>${project.digitalExecution}</p>
+              </div>
+            </div>
+
+            <!-- 9. THE RESULT (EDITABLE PLACEHOLDER) -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">07 // THE RESULT</div>
+              <div class="cs-flow-content">
+                <div class="cs-result-box">
+                  <span class="mono-label" style="font-size:0.7rem; color:var(--text-muted);">${project.impactSubtext}</span>
+                  <div class="cs-metrics-cluster">
+                    ${project.impactDetails.map(m => `
+                      <div class="cs-metric-cell">
+                        <span class="mono-label-muted">${m.label}</span>
+                        <div class="proof-big-num" style="font-size:2.5rem; margin:0.35rem 0;">${m.value}</div>
+                        <span class="mono-label" style="font-size:0.62rem; color:var(--text-muted);">${m.note}</span>
+                      </div>
+                    `).join('')}
+                  </div>
+
+                  ${project.quote ? `
+                    <div style="border-top:1px solid var(--border-subtle); margin-top:2rem; padding-top:1.5rem;">
+                      <blockquote style="font-family:var(--font-heading); font-size:1.15rem; font-style:italic; line-height:1.6; color:var(--text-warm-white);">
+                        “${project.quote.text}”
+                      </blockquote>
+                      <div style="margin-top:1rem;">
+                        <div style="font-weight:700; color:var(--text-warm-white);">${project.quote.author}</div>
+                        <div class="mono-label-muted" style="font-size:0.7rem;">${project.quote.role}</div>
+                      </div>
+                    </div>
+                  ` : ''}
+                </div>
+              </div>
+            </div>
+
+            <!-- 10. RELATED WORK -->
+            <div class="cs-flow-section">
+              <div class="cs-flow-label">RELATED WORK</div>
+              <div class="cs-flow-content">
+                <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:1.5rem;">
+                  ${(project.relatedIds || []).map(relId => {
+                    const rel = CASE_STUDIES.find(c => c.id === relId);
+                    if (!rel) return '';
+                    return `
+                      <a href="case-study.html?id=${rel.id}" class="project-card" style="text-decoration:none;">
+                        <div style="aspect-ratio:16/9; overflow:hidden;">
+                          <img src="${rel.heroImage}" alt="${rel.title}" style="width:100%; height:100%; object-fit:cover;" />
+                        </div>
+                        <div style="padding:1.25rem;">
+                          <span class="mono-label-muted">${rel.client}</span>
+                          <h4 class="headline-sm" style="font-size:1.05rem; margin:0.35rem 0;">${rel.title}</h4>
+                          <span class="mono-number">${rel.impactMetric}</span>
+                        </div>
+                      </a>
+                    `;
+                  }).join('')}
+                </div>
+              </div>
+            </div>
+
+            <!-- 11. START A PROJECT CTA -->
+            <div style="text-align:center; padding:3rem 0; border-top:1px solid var(--border-subtle);">
+              <span class="mono-label">READY TO LIFT YOUR NEXT INITIATIVE?</span>
+              <h3 class="headline-md" style="margin:1rem 0 1.5rem;">Let’s turn your vision into something people notice.</h3>
+              <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+                <a href="index.html#contact" class="btn btn-primary">START A PROJECT</a>
+                <a href="index.html#work" class="btn btn-secondary">BACK TO ALL WORK</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      `;
+    });
+  </script>
+</body>
+</html>

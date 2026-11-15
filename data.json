@@ -1,0 +1,877 @@
+{
+  "agency": {
+    "name": "CREATIVE BALLOON",
+    "legalName": "Creative Balloon (Pvt) Ltd",
+    "tagline": "We build brands people notice.",
+    "positioning": "A creative growth agency where strategy, digital marketing and cinematic production work together.",
+    "signature": "IDEAS THAT RISE.",
+    "location": {
+      "city": "Colombo",
+      "address": "Ward Place, Colombo 07",
+      "country": "Sri Lanka",
+      "coverage": "Sri Lanka & Worldwide (UK, UAE, Singapore, Europe)"
+    },
+    "contact": {
+      "email": "hello@creativeballoon.agency",
+      "phone": "+94 77 123 4567",
+      "whatsapp": "+94 77 123 4567",
+      "whatsappLink": "https://wa.me/94771234567"
+    },
+    "social": {
+      "instagram": "https://instagram.com/creativeballoon",
+      "linkedin": "https://linkedin.com/company/creativeballoon",
+      "vimeo": "https://vimeo.com/creativeballoon",
+      "youtube": "https://youtube.com/creativeballoon",
+      "behance": "https://behance.net/creativeballoon"
+    }
+  },
+  "navigation": [
+    { "label": "WORK", "href": "#work" },
+    { "label": "SERVICES", "href": "services.html" },
+    { "label": "THE LOOP", "href": "#loop" },
+    { "label": "WHY US", "href": "#why" },
+    { "label": "ABOUT", "href": "#about" },
+    { "label": "CONTACT", "href": "#contact" }
+  ],
+  "hero": {
+    "badge": "HYBRID CREATIVE GROWTH AGENCY",
+    "headline": "WE BUILD BRANDS PEOPLE NOTICE.",
+    "headlinePrefix": "WE BUILD<br>BRANDS PEOPLE<br>",
+    "headlineHighlight": "NOTICE.",
+    "description": "Creative strategy, digital marketing and visual production built to move brands forward. Where high-end cinema meets ruthless conversion architecture.",
+    "primaryCta": { "label": "START A PROJECT", "href": "#contact" },
+    "secondaryCta": { "label": "VIEW OUR WORK", "href": "#work" },
+    "showreel": {
+      "badge": "2024 SHOWREEL // 4K CINEMA",
+      "title": "WHERE STRATEGY MEETS STORY",
+      "meta": "COMMERCIALS • BRAND FILMS • PERFORMANCE",
+      "duration": "01:45",
+      "poster": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop"
+    }
+  },
+  "statement": {
+    "label": "01 // THE PHILOSOPHY",
+    "quote": "Brands do not grow from content alone. They grow when the right idea reaches the right people in the right way. Creative Balloon brings strategy, creativity and production together to make that happen.",
+    "highlight": "right idea"
+  },
+  "about": {
+    "label": "07 // ABOUT THE STUDIO",
+    "headline": "WE TURN IDEAS INTO SOMETHING PEOPLE CAN SEE, FEEL AND REMEMBER.",
+    "lead": "Founded with the conviction that world-class creative production and ruthless digital performance should never be divorced, Creative Balloon is built to compete in Sri Lanka and on the international stage.",
+    "body": "We operate from our boutique production hub in Colombo, collaborating with forward-thinking founders, marketing directors, and global luxury brands across South Asia, the Middle East, and Europe. We combine cinematic Arri/RED camera optics with rigorous conversion funnels, treating brand identity not as a vanity expenditure, but as a strategic asset with quantifiable velocity.",
+    "stats": [
+      { "title": "COLOMBO", "label": "HEADQUARTERS & SOUND STAGE" },
+      { "title": "GLOBAL", "label": "INTERNATIONAL STANDARD OPTICS" },
+      { "title": "HYBRID", "label": "STRATEGY + PRODUCTION + ADS" }
+    ],
+    "images": [
+      { "url": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?q=80&w=1200&auto=format&fit=crop", "caption": "STUDIO A // SOUNDSTAGE & CAMERA RIGS" },
+      { "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=800&auto=format&fit=crop", "caption": "DIRECTOR’S SUITE" },
+      { "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop", "caption": "DAVINCI RESOLVE SUITE" }
+    ]
+  },
+  "finalCta": {
+    "badge": "THE LIFT INITIATIVE",
+    "headline": "READY TO LIFT<br>YOUR NEXT IDEA?",
+    "subtext": "Tell us what you’re building. We’ll help you turn it into something people notice, talk about, and buy.",
+    "primaryCta": { "label": "START A PROJECT", "href": "#contact" },
+    "secondaryCta": { "label": "VIEW OUR WORK", "href": "#work" }
+  },
+  "brandSystem": {
+    "coreMetaphor": "THE LIFT",
+    "metaphorDescription": "The balloon represents an idea rising (Idea -> Lift -> Attention -> Connection -> Growth). Expressed through subtle upward scroll reveals, rising transitions, and floating editorial typography.",
+    "brandPhrases": [
+      "Lift the idea.",
+      "Lift the story.",
+      "Lift the brand.",
+      "Built to be seen.",
+      "Where strategy meets story.",
+      "Creative that moves brands forward.",
+      "Ideas that rise."
+    ],
+    "palette": {
+      "nearBlack": "#0A0A0D",
+      "charcoalSurface": "#121217",
+      "elevatedSurface": "#181820",
+      "warmWhite": "#F7F5F0",
+      "softGreyMuted": "#A39E93",
+      "accentImperialGold": "#D4AF37"
+    },
+    "typography": {
+      "displayHeadline": "Playfair Display (Haute Editorial Luxury Serif)",
+      "bodyText": "Plus Jakarta Sans (Natural Human Sans-Serif)",
+      "microLabels": "Plus Jakarta Sans (Small-caps Tracked)"
+    }
+  },
+  "valueChain": [
+    {
+      "step": "01",
+      "name": "IDEA",
+      "hook": "The Spark of Distinction",
+      "description": "Every breakthrough starts with a singular brand truth or cultural tension that has yet to be claimed in the market.",
+      "detail": "We interrogate your business fundamentals to extract the authentic differentiator that competitors cannot replicate."
+    },
+    {
+      "step": "02",
+      "name": "LIFT",
+      "hook": "Aerodynamic Positioning",
+      "description": "Elevation from commodity noise into atmospheric prestige through strategic clarity and daring creative framing.",
+      "detail": "Like hot air trapped in an aerostat, strategic focus creates the buoyant energy that allows an idea to break free from gravity."
+    },
+    {
+      "step": "03",
+      "name": "ATTENTION",
+      "hook": "Stopping the Feed",
+      "description": "Cinema-grade aesthetics and thumb-stopping visual optics that command immediate organic and paid eyeballs.",
+      "detail": "In an attention-deficit economy, timid visuals are invisible. We craft imagery calibrated to stop thumbs in under 0.8 seconds."
+    },
+    {
+      "step": "04",
+      "name": "CONNECTION",
+      "hook": "Emotional Inhabitation",
+      "description": "Resonance that bypasses analytical skepticism and turns transient viewers into impassioned brand champions.",
+      "detail": "Storytelling that speaks directly to human aspiration, tribal belonging, and identity."
+    },
+    {
+      "step": "05",
+      "name": "GROWTH",
+      "hook": "Compounding Impact",
+      "description": "Measurable commercial enterprise value: direct sales, pipeline volume, pricing power, and market dominance.",
+      "detail": "Attention without conversion is vanity. We engineer full-funnel digital loops that translate cultural heat into enterprise revenue."
+    }
+  ],
+  "servicesPillars": [
+    {
+      "pillarNumber": "01",
+      "pillarId": "digital-growth",
+      "pillarName": "DIGITAL GROWTH",
+      "tagline": "Conversion architecture, data-driven paid acquisition, and performance ecosystems built for scale.",
+      "description": "We don't believe in vanity metrics or empty reach. Our digital growth practice merges high-converting funnel design, surgical audience segmentation, and multi-channel paid acquisition to convert raw attention into measurable enterprise revenue.",
+      "services": [
+        {
+          "id": "social-media-strategy",
+          "name": "Social Media Strategy",
+          "shortDesc": "Architecting channel authority, audience positioning, and cultural relevance.",
+          "whatItIs": "A comprehensive roadmap defining how your brand communicates, engages, and converts across Instagram, LinkedIn, TikTok, and YouTube. We replace random posting with a structured editorial calendar and distinct content franchises.",
+          "whyItMatters": "Most brands post without purpose, wasting budget on feeds nobody remembers. A strategic framework ensures every asset has a designated job—building awareness, establishing category leadership, or driving inbound inquiries.",
+          "whatWeDeliver": [
+            "Channel-specific content architecture & brand positioning",
+            "Comprehensive monthly editorial calendar & publishing cadence",
+            "Audience segmentation & competitor whitespace analysis",
+            "Tone of voice, hashtag, and community engagement protocols"
+          ]
+        },
+        {
+          "id": "digital-advertising",
+          "name": "Digital Advertising",
+          "shortDesc": "Precision paid media campaigns across Meta, Google Ads, LinkedIn & TikTok.",
+          "whatItIs": "End-to-end paid media planning, algorithmic media buying, and real-time bid optimization engineered to deliver maximum customer acquisition with minimum wasted ad spend.",
+          "whyItMatters": "Organic reach alone cannot scale an enterprise. Precision advertising places your cinematic creative directly in front of active buyers at the exact moment of commercial intent.",
+          "whatWeDeliver": [
+            "Cross-platform campaign architecture (Meta, Google Search/PMax, LinkedIn, TikTok)",
+            "Custom conversion tracking & server-side Conversions API (CAPI) setup",
+            "Multivariate ad creative & copywriting iterations",
+            "Weekly bid management, negative keyword pruning & budget reallocation"
+          ]
+        },
+        {
+          "id": "content-strategy",
+          "name": "Content Strategy",
+          "shortDesc": "High-yield narrative frameworks that turn brand values into bingeable media.",
+          "whatItIs": "The master narrative blueprint that maps creative storytelling to customer purchase journeys—from the first curiosity spark to long-term brand advocacy.",
+          "whyItMatters": "Random content burns production dollars. A systematic content strategy ensures every video, carousel, and article builds cumulative brand equity and pushes customers down the funnel.",
+          "whatWeDeliver": [
+            "Content pillar definition and recurring franchise concepts",
+            "Omnichannel asset distribution and repurposing matrix",
+            "SEO-integrated topic clustering and search intent mapping",
+            "Quarterly performance reviews and thematic storytelling pivots"
+          ]
+        },
+        {
+          "id": "performance-marketing",
+          "name": "Performance Marketing",
+          "shortDesc": "Ruthless ROI-driven acquisition systems with real-time attribution modeling.",
+          "whatItIs": "A performance-first methodology where creative production is continuously validated against return on ad spend (ROAS), cost per acquisition (CPA), and customer lifetime value (LTV).",
+          "whyItMatters": "Creative without performance is decoration. Performance without creative is spam. We combine both into a self-optimizing commercial engine.",
+          "whatWeDeliver": [
+            "Full-funnel conversion rate optimization (CRO) testing",
+            "Dynamic retargeting sequences & cart abandonment funnels",
+            "Multi-touch attribution reporting and blended ROAS dashboards",
+            "Rapid-cycle creative testing protocol (testing 10+ hook variants weekly)"
+          ]
+        },
+        {
+          "id": "lead-generation",
+          "name": "Lead Generation",
+          "shortDesc": "Automated B2B & high-ticket B2C customer acquisition funnels.",
+          "whatItIs": "Frictionless digital capture systems, high-value lead magnets, bespoke interactive calculators, and automated nurture sequences that qualify prospects before they reach your sales team.",
+          "whyItMatters": "Sales teams waste hours chasing unqualified leads. Our automated qualification funnels deliver pre-educated, high-intent prospects primed for conversion.",
+          "whatWeDeliver": [
+            "High-converting landing page design & technical development",
+            "Interactive quizzes, calculators, and downloadable lead assets",
+            "CRM and WhatsApp Business API automated lead routing",
+            "Automated email nurture sequences and SMS appointment reminders"
+          ]
+        },
+        {
+          "id": "analytics-optimisation",
+          "name": "Analytics & Optimisation",
+          "shortDesc": "Uncompromising visibility into every dollar, impression, and conversion.",
+          "whatItIs": "Advanced business intelligence dashboards, real-time analytics tracking, and continuous data synthesis that eliminates guesswork from marketing investments.",
+          "whyItMatters": "You cannot scale what you cannot measure. Clear data gives executive leadership the confidence to invest aggressively in high-performing channels.",
+          "whatWeDeliver": [
+            "Bespoke Looker Studio / custom executive reporting dashboards",
+            "Google Analytics 4 (GA4) enhanced e-commerce & event configuration",
+            "Heatmap analysis, scroll-depth tracking & user session recordings",
+            "Monthly strategic executive debriefs with actionable next steps"
+          ]
+        }
+      ]
+    },
+    {
+      "pillarNumber": "02",
+      "pillarId": "creative",
+      "pillarName": "CREATIVE",
+      "tagline": "Uncompromising concept development, iconic art direction, and cultural resonance.",
+      "description": "Great ideas do not blend into the feed—they stop thumbs, elevate perception, and lodge themselves in human memory. Our creative studio marries strategic discipline with daring artistic vision.",
+      "services": [
+        {
+          "id": "campaign-concepts",
+          "name": "Campaign Concepts",
+          "shortDesc": "Big-tent creative platforms that anchor multi-month national and global campaigns.",
+          "whatItIs": "The foundational emotional and conceptual anchor that unites film, digital, print, and experiential activations under one unforgettable narrative hook.",
+          "whyItMatters": "Without a big concept, marketing becomes fragmented noise. A brilliant central platform makes every campaign dollar work 10x harder by creating immediate brand recognition.",
+          "whatWeDeliver": [
+            "3 distinct creative campaign territories with moodboards & narrative scripts",
+            "Master campaign taglines, manifestos, and messaging hierarchies",
+            "Multi-channel rollout blueprint and thematic key visual mockups",
+            "Stakeholder alignment presentations and strategic concept rationale"
+          ]
+        },
+        {
+          "id": "creative-direction",
+          "name": "Creative Direction",
+          "shortDesc": "Guardianship of visual fidelity, storytelling standards, and brand dignity.",
+          "whatItIs": "Holistic aesthetic stewardship across every brand touchpoint—ensuring styling, casting, lighting, typography, and pacing align strictly with the brand's luxury positioning.",
+          "whyItMatters": "Creative drift dilutes premium brands. Dedicated creative direction ensures consistent prestige and prevents brand erosion across multiple production vendors.",
+          "whatWeDeliver": [
+            "Comprehensive visual style guides & aesthetic guardrails",
+            "Director's treatments, color palettes, and cinematic lighting briefs",
+            "On-set creative direction for film and photography crews",
+            "Executive post-production supervision (color grading, audio, typography)"
+          ]
+        },
+        {
+          "id": "brand-content",
+          "name": "Brand Content",
+          "shortDesc": "High-value documentary, thought-leadership, and heritage storytelling.",
+          "whatItIs": "In-depth editorial content, founder profile films, craft documentaries, and behind-the-scenes origin stories designed to forge profound emotional affinity.",
+          "whyItMatters": "Modern consumers buy why you do it, not just what you make. Deep brand storytelling commands pricing power and turns customers into lifelong advocates.",
+          "whatWeDeliver": [
+            "Long-form documentary brand films & founder journey series",
+            "Heritage archive curation and craftsmanship origin stories",
+            "White papers, coffee table brand books, and digital monographs",
+            "Interactive digital brand hub experiences"
+          ]
+        },
+        {
+          "id": "social-creative",
+          "name": "Social Creative",
+          "shortDesc": "Bespoke vertical video and visual assets native to social platform algorithms.",
+          "whatItIs": "High-production short-form video (Reels, TikTok, Shorts), kinetic carousels, and thumb-stopping visual memes crafted specifically to thrive within algorithmic feed ecosystems.",
+          "whyItMatters": "Traditional TV commercials fail when repurposed for vertical feeds. Native social creative respects platform grammar while elevating production values above the competition.",
+          "whatWeDeliver": [
+            "Custom 9:16 vertical video assets shot specifically for mobile immersion",
+            "High-impact editorial carousel designs & visual infographics",
+            "Engaging hook variations tested for initial 3-second retention",
+            "Soundtrack selection, bespoke audio design, and subtitle typography"
+          ]
+        },
+        {
+          "id": "copywriting",
+          "name": "Copywriting",
+          "shortDesc": "Persuasive editorial prose, sharp headlines, and brand voice definition.",
+          "whatItIs": "The strategic art of verbal identity—from punchy 4-word billboard headlines to evocative brand manifestos and high-converting landing page copy.",
+          "whyItMatters": "Visuals catch the eye; words close the mind. Sharp, rhythmic copy differentiates your product from generic commodity alternatives.",
+          "whatWeDeliver": [
+            "Brand verbal identity guidelines and tonal voice matrix",
+            "Hero website copywriting and conversion-focused landing pages",
+            "Digital ad copy variations (hooks, bodies, calls to action)",
+            "Direct-response email marketing and VIP relationship management copy"
+          ]
+        },
+        {
+          "id": "art-direction",
+          "name": "Art Direction",
+          "shortDesc": "Meticulous visual composition, typography, and graphic refinement.",
+          "whatItIs": "The visual orchestration of space, color balance, typography, imagery, and spatial rhythm across physical packaging, digital interfaces, and cinematic sets.",
+          "whyItMatters": "Subconscious visual cues signal quality in milliseconds. Flawless art direction triggers premium price justification before the customer reads a single word.",
+          "whatWeDeliver": [
+            "Editorial key visuals and campaign poster design systems",
+            "Custom typographic lockups and headline treatments",
+            "Packaging design, luxury unboxing experiences, and tactile finishes",
+            "Prop curation, set dressing direction, and wardrobe styling briefs"
+          ]
+        }
+      ]
+    },
+    {
+      "pillarNumber": "03",
+      "pillarId": "visual-production",
+      "pillarName": "VISUAL PRODUCTION",
+      "tagline": "Cinema-grade optics, master color grading, and broadcast-level post-production.",
+      "description": "We are makers with camera in hand. From Arri digital cinema cameras to heavy-lift camera cranes and precision lighting rigs, our in-house production unit executes without intermediaries or bloated agency markups.",
+      "services": [
+        {
+          "id": "commercial-films",
+          "name": "Commercial Films",
+          "shortDesc": "Broadcast-quality TV commercials and cinema-scale promotional films.",
+          "whatItIs": "Flagship commercial cinema production for national television, cinema pre-rolls, and hero digital campaigns, backed by tier-one crew and equipment.",
+          "whyItMatters": "A flagship film serves as the crown jewel of your brand, establishing category dominance and generating prestige across all retail and partner touchpoints.",
+          "whatWeDeliver": [
+            "Full production management (location scouting, permits, casting, insurance)",
+            "Arri / RED cinema camera packages with prime anamorphic lenses",
+            "Professional stunt, vehicle rig, or high-speed Phantom motion setups",
+            "Broadcast-compliant mastering and global DCP cinema packaging"
+          ]
+        },
+        {
+          "id": "brand-films",
+          "name": "Brand Films",
+          "shortDesc": "Emotional, cinematic narratives that convey the soul of your enterprise.",
+          "whatItIs": "Poetic, documentary-style films that capture the human ambition, heritage, and philosophical mission driving your company forward.",
+          "whyItMatters": "In crowded markets, products become commoditized. A cinematic brand film establishes emotional indispensability and pride for employees and investors.",
+          "whatWeDeliver": [
+            "In-depth qualitative stakeholder interviews and historical research",
+            "Cinematic multi-day documentary field production",
+            "Original orchestral or bespoke electronic soundtrack composition",
+            "Bespoke executive cuts (3-minute master, 60s, 30s, and 15s cuts)"
+          ]
+        },
+        {
+          "id": "social-media-videos",
+          "name": "Social Media Videos",
+          "shortDesc": "Rapid-turnaround, high-gloss micro-video content packs.",
+          "whatItIs": "Structured batch filming sessions yielding dozens of high-production vertical clips optimized for algorithmic retention, organic viral sharing, and paid ad testing.",
+          "whyItMatters": "Feeding daily social algorithms requires volume, but low-quality footage harms luxury brands. Batch production delivers cinematic caliber at scale.",
+          "whatWeDeliver": [
+            "Quarterly batch production days in-studio or on location",
+            "15-30 modular vertical video assets ready for immediate publication",
+            "Native pacing, split screens, dynamic captions, and hook variations",
+            "Direct export in 9:16, 4:5, and 16:9 aspect ratios"
+          ]
+        },
+        {
+          "id": "photography",
+          "name": "Photography",
+          "shortDesc": "Editorial still-life, architectural, fashion, and high-end lifestyle captures.",
+          "whatItIs": "Master lighting and medium-format digital photography for advertising billboards, luxury e-commerce catalogs, PR lookbooks, and editorial media kits.",
+          "whyItMatters": "High-resolution editorial photography provides the tactile foundation for every digital interface, physical print run, and press kit.",
+          "whatWeDeliver": [
+            "Hasselblad / Phase One medium-format studio photography",
+            "Location scouting, set construction, and specialized lighting setups",
+            "High-end commercial skin and product retouching",
+            "Full print-ready CMYK and digital RGB color-managed asset packages"
+          ]
+        },
+        {
+          "id": "product-films",
+          "name": "Product Films",
+          "shortDesc": "Tactile, macro-optical studies celebrating material craft and engineering.",
+          "whatItIs": "Sensory, close-up product cinema utilizing motorized turntable motion control, probe lenses, liquid dynamics, and extreme macro lighting.",
+          "whyItMatters": "When customers cannot physically hold your product, cinematic product films bridge the tactile gap, driving immediate desire and reducing purchase anxiety.",
+          "whatWeDeliver": [
+            "Precision robotic camera motion for repeatable liquid & drop shots",
+            "Macro optical capture highlighting stitching, metals, glass, and textures",
+            "3D exploded views and hybrid live-action/CGI compositing",
+            "E-commerce 360-degree interactive video embeds"
+          ]
+        },
+        {
+          "id": "event-production",
+          "name": "Event Production",
+          "shortDesc": "Cinematic documentation and visual staging for VIP brand launches.",
+          "whatItIs": "Multi-camera live capture, drone cinematography, and immediate on-site editing for flagship conferences, gala launches, and experiential pop-ups.",
+          "whyItMatters": "Momentous brand occasions happen once. Professional live documentation immortalizes the prestige and provides months of high-value recap content.",
+          "whatWeDeliver": [
+            "Multi-camera live production teams and licensed aerial drone crew",
+            "Same-night 'sizzle reel' delivery for immediate PR & social press release",
+            "Full keynote recording with calibrated audio and presentation sync",
+            "Comprehensive high-resolution event photo gallery for press distribution"
+          ]
+        },
+        {
+          "id": "post-production",
+          "name": "Post Production",
+          "shortDesc": "DaVinci Resolve color grading, sound design, visual effects & mastering.",
+          "whatItIs": "The alchemy of the editing room: narrative pacing, broadcast color grading on calibrated OLED monitors, Foley sound design, motion graphics, and audio mixing.",
+          "whyItMatters": "Production gets the footage; post-production creates the feeling. Cinema-grade color and sound design transform good footage into an unforgettable experience.",
+          "whatWeDeliver": [
+            "Narrative and commercial offline/online editing",
+            "DaVinci Resolve HDR color grading with custom film emulation LUTs",
+            "Dolby Atmos / 5.1 surround sound engineering & audio cleanup",
+            "2D/3D kinetic titles, subtitle localization, and multi-format delivery"
+          ]
+        }
+      ]
+    }
+  ],
+  "creativeLoop": [
+    {
+      "stage": "01",
+      "name": "DISCOVER",
+      "subtitle": "Auditing Category Noise & Brand Truth",
+      "objective": "Uncover commercial whitespace, competitor vulnerabilities, and consumer subconscious triggers before touching a camera or script.",
+      "outputs": [
+        "Competitive whitespace & audience persona matrix",
+        "Qualitative customer interview synthesis",
+        "Historical brand audit & visual positioning gap analysis",
+        "Marketing attribution & funnel leak assessment"
+      ],
+      "metricHeader": "STAGE OBJECTIVE",
+      "metricValue": "ZERO GUESSWORK",
+      "metricNote": "Every creative dollar anchored in empirical market truth."
+    },
+    {
+      "stage": "02",
+      "name": "STRATEGISE",
+      "subtitle": "Defining The Creative Growth Architecture",
+      "objective": "Formulate the big conceptual territory and conversion mechanics that unite creative storytelling with quantitative revenue targets.",
+      "outputs": [
+        "Core campaign platform & master brand manifesto",
+        "Multi-channel distribution architecture (Paid / Organic / PR)",
+        "Target CAC, ROAS & customer acquisition modeling",
+        "Creative flighting schedule & asset requirement blueprint"
+      ],
+      "metricHeader": "STRATEGIC ALIGNMENT",
+      "metricValue": "100% UNIFIED",
+      "metricNote": "Creative production engineered directly for conversion."
+    },
+    {
+      "stage": "03",
+      "name": "CREATE",
+      "subtitle": "Art Direction, Copywriting & Visual Systems",
+      "objective": "Translate strategy into unforgettable art direction, cinematic scripts, hook iterations, and conversion copy.",
+      "outputs": [
+        "3 Distinct director's treatments & moodboards",
+        "Shot-by-shot storyboards with visual timing specs",
+        "Multivariate copy variations for hooks, headlines & ads",
+        "Editorial styling, wardrobe, and location scouting guides"
+      ],
+      "metricHeader": "CREATIVE STANDARD",
+      "metricValue": "TIER-ONE",
+      "metricNote": "Designed to stop thumbs in less than 0.8 seconds."
+    },
+    {
+      "stage": "04",
+      "name": "PRODUCE",
+      "subtitle": "Cinema Optics & Flawless On-Set Execution",
+      "objective": "Physical cinema production utilizing Arri/RED optics, master lighting rigs, drone units, and precision sound stages.",
+      "outputs": [
+        "4K/6K RAW cinema-grade principal photography",
+        "High-speed Phantom motion control for product tactile details",
+        "Medium-format still-life & lifestyle photography catalog",
+        "Batch mobile-native vertical video capture"
+      ],
+      "metricHeader": "IN-HOUSE UNIT",
+      "metricValue": "ZERO MARKUPS",
+      "metricNote": "Makers with cameras in hand—no bloated middleman fees."
+    },
+    {
+      "stage": "05",
+      "name": "LAUNCH",
+      "subtitle": "Algorithmic Infiltration & Paid Ad Deployment",
+      "objective": "Deploying creative across Meta, Google PMax, TikTok, YouTube, and digital PR with server-side attribution tracking.",
+      "outputs": [
+        "Simultaneous multi-channel campaign launch rollout",
+        "High-converting landing pages with sub-second load times",
+        "Server-side Conversions API (CAPI) & event tracking setup",
+        "Micro-influencer & digital PR distribution amplification"
+      ],
+      "metricHeader": "LAUNCH IMPACT",
+      "metricValue": "MAXIMUM HEAT",
+      "metricNote": "Synchronized market immersion across all channels."
+    },
+    {
+      "stage": "06",
+      "name": "OPTIMISE",
+      "subtitle": "Attribution Synthesis & Rapid Creative Iteration",
+      "objective": "Analyzing real-time conversion data to trim low-performing ad variations and scale top-converting creative variations.",
+      "outputs": [
+        "Weekly creative fatigue & hook retention analysis",
+        "Continuous multivariate headline & thumbnail iteration",
+        "Real-time Looker Studio executive attribution dashboards",
+        "Iterative creative scaling into high-yield audience lookalikes"
+      ],
+      "metricHeader": "GROWTH COMPOUNDING",
+      "metricValue": "SELF-FUNDING",
+      "metricNote": "Profits from winning campaigns reinvested to scale."
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "ceylon-artisan-roasters",
+      "title": "Born Above the Clouds",
+      "client": "Ceylon Artisan Roasters",
+      "year": "2024",
+      "categories": ["CAMPAIGNS", "FILM", "BRANDING"],
+      "heroBadge": "Global Brand Launch & Film",
+      "heroImage": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=1600&auto=format&fit=crop",
+      "accentColor": "#FF4D2D",
+      "challenge": "Sri Lanka's central cloud forest produces some of the rarest high-altitude Arabica in the world, yet international markets default strictly to Ceylon tea. The client needed to break into ultra-premium specialty coffee retailers across London, Tokyo, and Zurich while establishing luxury pricing parity with Geisha varieties.",
+      "idea": "Shift the perception from commodity export to 'Artisanal Elevation'. We positioned Ceylon Artisan Roasters not as just coffee beans, but as the pinnacle of micro-climate terroir, nurtured by mist and volcanic mineral soil above 6,000 feet.",
+      "strategy": "A three-phase global launch combining cinematic documentary storytelling, targeted European hospitality buyer outreach, and direct-to-consumer high-conversion paid media targeting connoisseur subcultures.",
+      "creative": "Moody, tactile, atmospheric art direction featuring misty Nuwara Eliya dawns, macro bean extraction cinematography, and tactile copper-foil minimalist packaging designed to stand out on boutique shelves.",
+      "production": "Shot over 7 days in the Central Highlands on Arri Alexa Mini LF with vintage anamorphic glass. Captured authentic harvester stories, precision roasting science, and sensory pouring rituals in 4K HDR.",
+      "digitalExecution": "High-intent Meta & Google Performance Max campaigns, paired with an editorial interactive coffee origin map and a members-only Reserve Batch subscription funnel with SMS drop notifications.",
+      "execution": "4K Master Brand Film, luxury packaging redesign, Instagram documentary vignettes, and targeted European digital ad rollouts.",
+      "impactMetric": "+240% DTC SALES",
+      "impactSubtext": "[Editable Client Metric Placeholder — Replace with verified campaign benchmark]",
+      "impactDetails": [
+        { "label": "Direct-to-Consumer Growth", "value": "+240%", "note": "*Placeholder" },
+        { "label": "Cinematic Reel Impressions", "value": "3.2M", "note": "*Organic & Paid" },
+        { "label": "International Stockists", "value": "48 Boutiques", "note": "*UK, CH, JP" },
+        { "label": "Return on Ad Spend (ROAS)", "value": "5.2x", "note": "*Performance Ads" }
+      ],
+      "quote": {
+        "text": "Creative Balloon didn't just shoot an ad; they defined our brand soul. The lift in our international reputation and sales has been transformative.",
+        "author": "Dinesh Wickramasinghe",
+        "role": "Founder & Master Roaster, Ceylon Artisan Roasters"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1509785307050-d4066910ec1e?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "relatedIds": ["aura-botanicals", "lumina-haute-joaillerie"]
+    },
+    {
+      "id": "apex-digital-wealth",
+      "title": "Capital, Elevated",
+      "client": "Apex Digital Wealth",
+      "year": "2024",
+      "categories": ["DIGITAL", "CAMPAIGNS"],
+      "heroBadge": "Digital Growth & Acquisition",
+      "heroImage": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1600&auto=format&fit=crop",
+      "accentColor": "#FF4D2D",
+      "challenge": "Cross-border wealth advisory suffers from stale, corporate stock-photo clichés. Apex needed to engage second-generation high-net-worth investors across Singapore, Colombo, and Dubai who demand institutional transparency paired with modern digital agility.",
+      "idea": "'Capital, Elevated' — Positioning private equity and algorithmic portfolio balancing as an art form of modern discernment and generational longevity.",
+      "strategy": "Full-funnel conversion engine uniting authority-building LinkedIn thought leadership, an interactive private wealth simulator, and targeted executive video retargeting.",
+      "creative": "Monochromatic architectural aesthetics, clean typography, interactive data visualizations, and bespoke editorial interviews with chief investment strategists.",
+      "production": "Produced 12 bespoke studio interview films with executive lighting, dynamic 3D kinetic typography explaining proprietary hedging algorithms, and quarterly report design systems.",
+      "digitalExecution": "Algorithmic lead qualification funnels integrated with Salesforce and WhatsApp Business API for instant concierge outreach within 90 seconds of lead capture.",
+      "execution": "Interactive digital web experience, targeted LinkedIn thought-leadership video campaign, and high-converting VIP private equity funnel.",
+      "impactMetric": "+$42M AUA IN 90 DAYS",
+      "impactSubtext": "[Editable Client Metric Placeholder — Replace with verified campaign benchmark]",
+      "impactDetails": [
+        { "label": "Assets Under Advisement", "value": "+$42M", "note": "*Quarter 1 Inflow" },
+        { "label": "Qualified Inbound Leads", "value": "5,800+", "note": "*Accredited" },
+        { "label": "CAC Reduction", "value": "-38%", "note": "*Vs. Industry Avg" },
+        { "label": "Funnel Conversion Rate", "value": "14.2%", "note": "*High-Intent" }
+      ],
+      "quote": {
+        "text": "The synergy between Creative Balloon's high-end video production and their ruthless digital marketing precision generated more qualified capital inflows than our previous three agencies combined.",
+        "author": "Sharmila Senanayake",
+        "role": "Managing Partner, Apex Capital Partners"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "relatedIds": ["veloce-hypersports", "pulse-performance-labs"]
+    },
+    {
+      "id": "veloce-hypersports",
+      "title": "Silent Lightning",
+      "client": "Veloce Hypersports",
+      "year": "2024",
+      "categories": ["FILM", "DIGITAL", "CAMPAIGNS"],
+      "heroBadge": "Cinematic Product Film & Reveal",
+      "heroImage": "https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=1600&auto=format&fit=crop",
+      "accentColor": "#FF4D2D",
+      "challenge": "Generate unprecedented global anticipation and lock in 50 bespoke $250,000 reservations for a limited-run electric GT concept prior to physical vehicle road trials.",
+      "idea": "'Silent Lightning' — Inverting the conventional gasoline combustion scream into the primal, visceral thrill of immediate electromagnetic torque and aerodynamic levitation.",
+      "strategy": "A confidential teaser campaign utilizing dark silhouette teasers, leaked telemetry audio, and a synchronized global livestream reveal event.",
+      "creative": "Hyper-stylized low-key cinematography inspired by high-concept science fiction, cutting between carbon-fiber aerodynamics, cockpit HUD graphics, and raw desert wind.",
+      "production": "Closed-course runway filming with Russian Arm gyro-stabilized camera crane, Phantom 4K ultra-high-speed cameras at 1,000 fps, and Dolby Atmos cinematic sound engineering.",
+      "digitalExecution": "Private VIP portal accessible only via encrypted token invite, backed by a worldwide YouTube Premiere and targeted programmatic banners across top luxury lifestyle publications.",
+      "execution": "90-second cinematic launch film shot on Arri Alexa Mini LF, high-octane 3D spatial sound design, and countdown digital teaser ecosystem.",
+      "impactMetric": "100% PRE-ORDERS FILLED",
+      "impactSubtext": "[Editable Client Metric Placeholder — Replace with verified campaign benchmark]",
+      "impactDetails": [
+        { "label": "Pre-Order Allocation", "value": "100%", "note": "*Filled in 14 Days" },
+        { "label": "Organic Global Views", "value": "8.4M", "note": "*Earned Reach" },
+        { "label": "Global Press Features", "value": "120+", "note": "*Top Tier Auto" },
+        { "label": "Live Premiere Attendees", "value": "140K", "note": "*Concurrent" }
+      ],
+      "quote": {
+        "text": "Creative Balloon understood the physics of emotion. They made an electric car feel as thunderous and heart-stopping as a fighter jet taking flight.",
+        "author": "Julian Vance",
+        "role": "VP of Brand & Design, Veloce Hypersports"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "relatedIds": ["ceylon-artisan-roasters", "lumina-haute-joaillerie"]
+    },
+    {
+      "id": "aura-botanicals",
+      "title": "Ancient Biology. Modern Alchemy.",
+      "client": "Aura Botanicals",
+      "year": "2024",
+      "categories": ["PHOTOGRAPHY", "SOCIAL", "BRANDING"],
+      "heroBadge": "Visual Identity & Social Campaign",
+      "heroImage": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1600&auto=format&fit=crop",
+      "accentColor": "#FF4D2D",
+      "challenge": "Elevate an ancient indigenous botanical skincare lineage into modern Sephora and Harrods tier retail spaces without diluting Ayurvedic authenticity.",
+      "idea": "Strip away generic hippie iconography; elevate herbal biochemistry into clean, clinical, scientific sculpture.",
+      "strategy": "Visual-first organic and paid social acquisition engine powered by hypnotic micro-cinematography, skin texture honesty, and dermatologist-endorsed validation.",
+      "creative": "Warm shadows, raw endemic flora captured in crystalline resin, water ripples, and austere typography with gold-embossed blind debossing.",
+      "production": "High-magnification macro lens photography, 45 distinct short-form TikTok/Reels educational assets, and studio still-lifes photographed under custom prism lighting.",
+      "digitalExecution": "Broad Meta audience prospecting with creative iteration testing 6 hooks per asset, paired with automated SMS cart recovery sequences and TikTok Shop integration.",
+      "execution": "80+ high-end studio still-life captures, 30-day vertical video masterclass series, and micro-influencer gifting campaign.",
+      "impactMetric": "+310% INSTAGRAM REACH",
+      "impactSubtext": "[Editable Client Metric Placeholder — Replace with verified campaign benchmark]",
+      "impactDetails": [
+        { "label": "Organic Reach Expansion", "value": "+310%", "note": "*Month-on-Month" },
+        { "label": "Meta Ad ROAS", "value": "4.6x", "note": "*Blended Return" },
+        { "label": "Initial Inventory Sellout", "value": "72 Hours", "note": "*1st Batch Sold" },
+        { "label": "Customer LTV Increase", "value": "+68%", "note": "*6-Month Cohort" }
+      ],
+      "quote": {
+        "text": "The aesthetic bar Creative Balloon operates at is world-class. Our customers constantly ask if our brand was born in Paris or Tokyo. It was born right here.",
+        "author": "Dr. Ananya Perera",
+        "role": "Founder & Chief Formulator, Aura Botanicals"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "relatedIds": ["ceylon-artisan-roasters", "pulse-performance-labs"]
+    },
+    {
+      "id": "lumina-haute-joaillerie",
+      "title": "Light Captured in Stone",
+      "client": "Lumina Haute Joaillerie",
+      "year": "2024",
+      "categories": ["FILM", "PHOTOGRAPHY", "BRANDING"],
+      "heroBadge": "Haute Joaillerie Heritage Film",
+      "heroImage": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop",
+      "accentColor": "#FF4D2D",
+      "challenge": "Traditional sapphire merchants depend on foot traffic and word of mouth. Lumina wanted to build international sovereign and high-net-worth collector demand for one-of-a-kind unheated Royal Blue and Padparadscha sapphires.",
+      "idea": "'Light Captured in Stone' — Framing each rare gem as a billion-year geological miracle transformed by master gem cutters into wearable poetry.",
+      "strategy": "Private salon experiences, intimate collector invitation films delivered via private bespoke microsites, and targeted digital placements in Swiss and UAE luxury lifestyle publications.",
+      "creative": "Dramatic dark-field lighting, light-refraction prisms, high-contrast black velvet textures, and classical orchestral scoring composed specifically for the launch film.",
+      "production": "Filmed at Ratnapura mining reserves and in private gemological cutting chambers with custom optical probe lenses capturing internal sapphire silk asterisms.",
+      "digitalExecution": "Private invite-only digital salon gallery with interactive 360-degree gem rotation, certification verification, and direct private concierge WhatsApp routing.",
+      "execution": "Anamorphic visual poetry film, fine art coffee table brand lookbook, macro sapphire lighting study, and VIP private salon invites.",
+      "impactMetric": "6 PRIVATE COMMISSIONS",
+      "impactSubtext": "[Editable Client Metric Placeholder — Replace with verified campaign benchmark]",
+      "impactDetails": [
+        { "label": "High-Jewelry Commissions", "value": "6 Bespoke", "note": "*Within 30 Days" },
+        { "label": "Average Order Value", "value": "+145%", "note": "*Premium Pricing" },
+        { "label": "Collector Inquiry Volume", "value": "+88%", "note": "*UAE & EU" },
+        { "label": "Brand Prestige Perception", "value": "Top Tier", "note": "*Collector Survey" }
+      ],
+      "quote": {
+        "text": "Creative Balloon elevated our family's three generations of gem cutting into an international luxury brand that commands respect across Geneva, Mayfair, and Dubai.",
+        "author": "Tariq Mansoor",
+        "role": "Managing Director, Lumina Gems"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "relatedIds": ["ceylon-artisan-roasters", "veloce-hypersports"]
+    },
+    {
+      "id": "pulse-performance-labs",
+      "title": "Recover Faster. Lift Higher.",
+      "client": "Pulse Performance Labs",
+      "year": "2024",
+      "categories": ["SOCIAL", "DIGITAL"],
+      "heroBadge": "Full-Funnel Member Acquisition",
+      "heroImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1600&auto=format&fit=crop",
+      "accentColor": "#FF4D2D",
+      "challenge": "Pulse launched three new biometric recovery and contrast-therapy centers in prime urban districts during intense gym chain discount wars. They needed to sign 1,200 annual members at premium rates without resorting to price-cutting.",
+      "idea": "Shift the narrative from grueling exhaustion to high-tech restoration: hyperbaric oxygen, ice-bath neuroplasticity, infrared therapy, and athletic longevity.",
+      "strategy": "A hyper-targeted local digital acquisition funnel combining short-form creator test runs, dynamic Instagram Story retargeting, and a free 1-on-1 Biometric Assessment lead magnet.",
+      "creative": "High-energy editorial photography, kinetic split-screen social videos, pulse heart-rate UI overlays, and athlete testimonial vignettes.",
+      "production": "Captured 60+ modular video clips designed for multivariate creative testing across Instagram Reels, TikTok, and YouTube Shorts.",
+      "digitalExecution": "Automated WhatsApp lead capture, instant appointment booking engine via Calendly, and localized Google Maps local SEO dominance.",
+      "execution": "Hyper-localized geo-fenced Meta & TikTok performance creative, dynamic lead capture funnels, and member transformation mini-documentaries.",
+      "impactMetric": "+1,420 ACTIVE MEMBERS",
+      "impactSubtext": "[Editable Client Metric Placeholder — Replace with verified campaign benchmark]",
+      "impactDetails": [
+        { "label": "New Member Signups", "value": "+1,420", "note": "*In 60 Days" },
+        { "label": "Cost Per Acquisition (CPA)", "value": "-42%", "note": "*Vs. Plan" },
+        { "label": "Lead-to-Tour Showup Rate", "value": "84%", "note": "*WhatsApp Flow" },
+        { "label": "Annual Contract Retention", "value": "92%", "note": "*Highest in Sector" }
+      ],
+      "quote": {
+        "text": "Creative Balloon didn't just deliver ads—they built our entire growth engine. Every dollar we spent returned real members walking through our doors every single morning.",
+        "author": "Liam Kaluwitharana",
+        "role": "Co-Founder & COO, Pulse Performance Labs"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "relatedIds": ["apex-digital-wealth", "aura-botanicals"]
+    }
+  ],
+  "whyCreativeBalloon": {
+    "headline": "ONE CREATIVE PARTNER. FROM IDEA TO IMPACT.",
+    "subtext": "When strategy, creative, production, and digital media live under one roof, momentum accelerates and brand dilution vanishes.",
+    "growthEquation": {
+      "components": ["STRATEGY", "CREATIVE", "PRODUCTION", "DIGITAL"],
+      "result": "UNIFIED GROWTH"
+    },
+    "comparison": {
+      "fragmented": {
+        "title": "Hiring Separate Isolated Vendors",
+        "description": "Strategy firm hands off a PDF. Video house shoots without understanding digital hooks. Performance agency blames the video for poor conversion.",
+        "flaws": [
+          "Fragmented communication across 3 disconnected account managers",
+          "Bloated overhead and redundant agency markups",
+          "Mismatched creative execution that fails in algorithmic feeds",
+          "Slow multi-month turnarounds with zero agility"
+        ]
+      },
+      "creativeBalloon": {
+        "title": "The Creative Balloon Model",
+        "description": "One unified team handles strategic hypothesis, scriptwriting, cinema filming, paid ad deployment, and attribution optimization.",
+        "advantages": [
+          "Single point of strategic accountability directly tied to ROI",
+          "Direct in-house cinema production with zero middleman markups",
+          "Every shoot planned with 10+ hook variations for multivariate testing",
+          "Rapid iteration with winning cuts deployed within 48 hours"
+        ]
+      }
+    }
+  },
+  "proofAndCredibility": {
+    "metrics": [
+      {
+        "value": "3.2M+",
+        "label": "Campaign Impressions",
+        "note": "* Editable Benchmark Placeholder"
+      },
+      {
+        "value": "85+",
+        "label": "Commercial Films Produced",
+        "note": "* Editable Project Count Placeholder"
+      },
+      {
+        "value": "4.8x",
+        "label": "Average Paid Media ROAS",
+        "note": "* Editable Client Metric Placeholder"
+      },
+      {
+        "value": "100%",
+        "label": "In-House Execution",
+        "note": "* Zero Middleman Markups"
+      }
+    ],
+    "clientLogos": [
+      "Ceylon Artisan Roasters",
+      "Apex Capital Partners",
+      "Veloce Hypersports",
+      "Aura Botanicals",
+      "Lumina Haute Joaillerie",
+      "Pulse Performance Labs"
+    ],
+    "strategicPartnerships": [
+      {
+        "name": "SOLIDLIGHT FILMS",
+        "role": "Cinema Production Partner",
+        "logoAsset": "assets/images/solidlight-films.jpg"
+      },
+      { "name": "ARRI Cinema Rentals", "role": "Optics & Camera Systems" },
+      { "name": "DaVinci Resolve Studio", "role": "HDR Grading Suite" },
+      { "name": "Meta Business Partner", "role": "Paid Advertising Platform" },
+      { "name": "Dolby Atmos", "role": "Spatial Sound Mixing" }
+    ],
+    "testimonials": [
+      {
+        "quote": "Creative Balloon didn't just deliver ads—they completely rebuilt our growth engine. Every dollar we invested translated into real customers walking through our doors.",
+        "author": "Liam Kaluwitharana",
+        "role": "Co-Founder & COO, Pulse Performance Labs"
+      },
+      {
+        "quote": "The synergy between their high-end video production and ruthless digital marketing precision generated more qualified capital inflows than our previous three agencies combined.",
+        "author": "Sharmila Senanayake",
+        "role": "Managing Partner, Apex Capital Partners"
+      },
+      {
+        "quote": "The aesthetic bar Creative Balloon operates at is international tier. Our global stockists constantly praise our films. They made our artisanal heritage unforgettable.",
+        "author": "Dinesh Wickramasinghe",
+        "role": "Founder, Ceylon Artisan Roasters"
+      }
+    ]
+  },
+  "enquiryFormConfig": {
+    "submitEndpoint": "/api/enquiry",
+    "buttonText": "LET’S TALK",
+    "slaText": "Direct response from our Creative Director within 4 business hours.",
+    "fields": [
+      { "number": 1, "id": "name", "label": "Your Name", "type": "text", "required": true },
+      { "number": 2, "id": "company", "label": "Company / Brand", "type": "text", "required": true },
+      { "number": 3, "id": "email", "label": "Work Email", "type": "email", "required": true },
+      { "number": 4, "id": "phone", "label": "WhatsApp / Phone", "type": "tel", "required": true },
+      {
+        "number": 5,
+        "id": "project_type",
+        "label": "Project Type",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Commercial Film & Cinema Production",
+          "Full Creative Growth Retainer (Pillars 1, 2 & 3)",
+          "Digital Acquisition & Performance Marketing",
+          "Brand Identity, Concept & Creative Direction",
+          "Social Media Batch Content & Video Packs",
+          "Editorial Still-Life & Product Photography"
+        ]
+      },
+      {
+        "number": 6,
+        "id": "needs_tags",
+        "label": "What do you need?",
+        "type": "multi_select_tags",
+        "options": [
+          "Brand Strategy",
+          "Commercial Film",
+          "Social Media",
+          "Paid Advertising (Meta/Google)",
+          "Photography",
+          "Copywriting",
+          "Performance Marketing",
+          "Packaging & Art Direction",
+          "Post Production & Color"
+        ]
+      },
+      {
+        "number": 7,
+        "id": "timeline",
+        "label": "Estimated Timeline",
+        "type": "pills",
+        "options": ["Immediate (< 1 mo)", "1-3 Months", "3-6 Months", "Long-Term Retainer"]
+      },
+      {
+        "number": 8,
+        "id": "budget",
+        "label": "Budget Range",
+        "type": "pills",
+        "options": [
+          "$5k - $15k / LKR 1.5M - 4.5M",
+          "$15k - $30k / LKR 4.5M - 9M",
+          "$30k - $75k / LKR 9M - 22M",
+          "Enterprise Scale / Custom"
+        ]
+      },
+      { "number": 9, "id": "message", "label": "Tell us about your vision", "type": "textarea", "required": true }
+    ]
+  }
+}
